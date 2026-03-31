@@ -1,8 +1,8 @@
-name: CI
+name: Assingment 1.0
 
 env:
   # The name of the main module repository
-  main_project_module: Assignment 1.0
+  main_project_module: Assignment10
 
   # The name of the Play Store
   playstore_name: IIECat
