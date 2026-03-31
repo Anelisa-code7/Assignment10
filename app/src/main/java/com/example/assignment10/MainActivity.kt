@@ -8,7 +8,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import java.time.MonthDay
 
 class MainActivity : AppCompatActivity()
 
@@ -45,7 +44,7 @@ class MainActivity : AppCompatActivity()
                 txtTime.error = "Please fill in required information"
             } else {
                 if (Time == "Morning") {
-                    txtOutput.text = "Check up on your family memebers "
+                    txtOutput.text = "Check up on your family members "
                 } else if
                                (Time == "Mid-morning") {
                     txtOutput.text = "Say a quick thank you to a colleague"
@@ -58,7 +57,7 @@ class MainActivity : AppCompatActivity()
                 } else if
                                (Time == "Dinner") {
                     txtOutput.text =
-                        "Have a catch up seesion for 5 minutes with a friend or family "
+                        "Have a catch up session for 5 minutes with a friend or family "
                 } else if
                                (Time == "After Dinner/Night") {
                     txtOutput.text = "Leave a thoughtful comment on a friends post"
