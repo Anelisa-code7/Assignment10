@@ -1,12 +1,6 @@
 name: CI
 
-env:
-  # The name of the main module repository
-  main_project_module: Assignment10
 
-  # The name of the Play Store
-  playstore_name: IIECat
-  
 on:
   push:
     branches: ["main"]
