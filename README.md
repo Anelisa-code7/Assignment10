@@ -1,2 +1,31 @@
 # Spark app
+## Table of Content 
+
+<ol>
+ <li>Description</li>
+ <li>Features</li>
+ <li>Usage Examples</li>
+ <li>References</li>
+</ol>
+
+## Description 
+
+
+
 User interface assignment
+
+The Social Interaction App Report:
+Is a simple Android application designed to provide users with suggestions based on the time of day
+everything is straightforward from the user interface with a text input for entering the time of day and the two buttons for getting suggestions or for resetting the input.
+
+The operation part of the app:
+The app makes the users like for Cora to enter a time of day (e.g."Afternoon","Morning","Dinner")
+Users can click the "Get suggestion" button to get a suitable suggestion related to social interaction for the entered time of day.
+Then the "Reset" button clear the input form the user, to make the user be able to enter a new time of day 
+the app should display the suggestion below the buttons 
+
+The layout of the app:
+the app's UI is expressed in the activity_main.xml layout file located in the res file of the Android project.
+The layout includes a title ("Social interaction App")
+The app uses Kotlin code.
+The app is built using Android Studio.
