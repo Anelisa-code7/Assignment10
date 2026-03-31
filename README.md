@@ -32,4 +32,12 @@ The app uses Kotlin code.
 The app is built using Android Studio.
 
 ## References
-Lecturer
+Bruckner, N. (2024, April 2). How to make a customized bullet text box in HTML/Javascript? Stack Overflow. https://stackoverflow.com/questions/78263872/how-to-make-a-customized-bullet-text-box-in-html-javascript
+
+Make a README. (n.d.). Make a README. https://www.makeareadme.com/
+
+Aba. (n.d.). Checking if string is empty in Kotlin. Stack Overflow. https://stackoverflow.com/questions/45336954/checking-if-string-is-empty-in-kotlin
+
+Kotlin String - trim() Function. (n.d.). https://www.tutorialspoint.com/kotlin/kotlin_string_trim_function.htm
+
+lecturer: Rametse Samuel, Emeris Pretoria IMAD5112 2026
