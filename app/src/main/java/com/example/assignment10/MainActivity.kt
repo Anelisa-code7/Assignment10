@@ -6,8 +6,6 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity()
 
@@ -36,34 +34,27 @@ class MainActivity : AppCompatActivity()
 
         //set an OnClickListener
         btnSuggestion.setOnClickListener {
-            val Time = txtTime.text.toString().trim().lowercase()
+            val time = txtTime.text.toString().trim().lowercase()
 
             //Check if the input is empty
-            if (Time.isEmpty()) {
+            if (time.isEmpty()) {
                 //if empty,show an error message on the timeInput EditText
                 txtTime.error = "Please fill in required information"
             } else {
-                if (Time == "Morning") {
+                if (time == "Morning") {
                     txtOutput.text = "Check up on your family members "
-                } else if
-                               (Time == "Mid-morning") {
+                } else if (time == "Mid-morning") {
                     txtOutput.text = "Say a quick thank you to a colleague"
-                } else if
-                               (Time == "Afternoon") {
+                } else if (time == "Afternoon") {
                     txtOutput.text = "Send funny memes and links to your friends"
-                } else if
-                               (Time == "Afternoon Snack Time") {
+                } else if (time == "Afternoon Snack Time") {
                     txtOutput.text = " Send a Thinking of you Text"
-                } else if
-                               (Time == "Dinner") {
-                    txtOutput.text =
-                        "Have a catch up session for 5 minutes with a friend or family "
-                } else if
-                               (Time == "After Dinner/Night") {
+                } else if (time == "Dinner") {
+                    txtOutput.text = "Have a catch up session for 5 minutes with a friend or family "
+                } else if (time == "After Dinner/Night") {
                     txtOutput.text = "Leave a thoughtful comment on a friends post"
                 } else {
                     txtOutput.text = "Invalid time of day. Try: Morning, Afternoon, Dinner"
-
 
                 }
 
@@ -79,6 +70,6 @@ class MainActivity : AppCompatActivity()
 
 
 
-            
+
         }
     }
