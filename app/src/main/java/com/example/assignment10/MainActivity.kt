@@ -34,20 +34,24 @@ class MainActivity : AppCompatActivity()
 
         //set an OnClickListener
         btnSuggestion.setOnClickListener {
-            val time = txtTime.text.toString().trim().lowercase()
+            val time = txtTime.text.toString()
 
-
-                if (time == "Morning") {
+            if(time.isEmpty()){
+                txtTime.error = "Please fill in required information"
+            }else {
+                if(time == "Morning") {
                     txtOutput.setTextColor(getColor(R.color.purple))
                     txtOutput.text = "Check up on your family members "
                 } else if (time == "Mid-morning") {
                     txtOutput.text = "Say a quick thank you to a colleague"
                 } else if (time == "Afternoon") {
+                    txtOutput.setTextColor(getColor(R.color.orange))
                     txtOutput.text = "Send funny memes and links to your friends"
                 } else if (time == "Afternoon Snack Time") {
-                    txtOutput.text = " Send a Thinking of you Text"
+                    txtOutput.text ="Send a Thinking of you Text"
                 } else if (time == "Dinner") {
-                    txtOutput.text = "Have a catch up session for 5 minutes with a friend or family "
+                    txtOutput.setTextColor(getColor(R.color.pink))
+                    txtOutput.text = "Have a catch up session for 5 minutes with a friend or family"
                 } else if (time == "After Dinner/Night") {
                     txtOutput.text = "Leave a thoughtful comment on a friends post"
                 } else {
@@ -55,7 +59,7 @@ class MainActivity : AppCompatActivity()
 
                 }
 
-
+            }
         }
 
         //set an OnClickListener for Reset button
