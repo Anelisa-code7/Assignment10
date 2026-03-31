@@ -41,3 +41,5 @@ Aba. (n.d.). Checking if string is empty in Kotlin. Stack Overflow. https://stac
 Kotlin String - trim() Function. (n.d.). https://www.tutorialspoint.com/kotlin/kotlin_string_trim_function.htm
 
 lecturer: Rametse Samuel, Emeris Pretoria IMAD5112 2026
+
+Developer, A. (2017, October 29). How to use “setTextColor(hexaValue)” on Kotlin for Android,. Stack Overflow. https://stackoverflow.com/questions/47001467/how-to-use-settextcolorhexavalue-on-kotlin-for-android

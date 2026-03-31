@@ -36,12 +36,9 @@ class MainActivity : AppCompatActivity()
         btnSuggestion.setOnClickListener {
             val time = txtTime.text.toString().trim().lowercase()
 
-            //Check if the input is empty
-            if (time.isEmpty()) {
-                //if empty,show an error message on the timeInput EditText
-                txtTime.error = "Please fill in required information"
-            } else {
+
                 if (time == "Morning") {
+                    txtOutput.setTextColor(getColor(R.color.purple))
                     txtOutput.text = "Check up on your family members "
                 } else if (time == "Mid-morning") {
                     txtOutput.text = "Say a quick thank you to a colleague"
@@ -58,7 +55,7 @@ class MainActivity : AppCompatActivity()
 
                 }
 
-            }
+
         }
 
         //set an OnClickListener for Reset button
